@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'paytone': ['var(--font-paytone-one)', 'Paytone One', 'sans-serif'],
+        'lexend': ['var(--font-lexend)', 'Lexend', 'sans-serif'],
         'sans': ['var(--font-geist-sans)', 'sans-serif'],
         'mono': ['var(--font-geist-mono)', 'monospace'],
       },

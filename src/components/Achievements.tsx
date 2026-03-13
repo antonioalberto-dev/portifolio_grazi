@@ -1,86 +1,115 @@
-import { Trophy, Users, Target, Award } from 'lucide-react';
+import { Award, Star } from 'lucide-react';
 
 export default function Achievements() {
   const achievements = [
     {
-      icon: Trophy,
-      number: '3',
-      label: 'Anos',
-      subtitle: 'Campeonatos Estudantis',
-      color: 'from-blue-500 to-blue-600'
-    },
-    {
-      icon: Users,
-      number: '200',
-      label: 'Plus',
-      subtitle: 'Jogos Disputados',
-      color: 'from-green-500 to-green-600'
-    },
-    {
-      icon: Target,
-      number: '1',
-      label: 'Destaque',
-      subtitle: 'Circuito Nacional Anita',
-      color: 'from-purple-500 to-purple-600'
+      icon: Star,
+      title: 'Destaque',
+      subtitle: 'Melhor Levantadora',
+      description: 'Prêmio de melhor levantadora do ano 2023, na categoria sub18',
+      color: 'bg-blue-600'
     },
     {
       icon: Award,
-      number: '1',
-      label: 'Destaque',
-      subtitle: 'Melhor Levantadora',
-      color: 'from-orange-500 to-orange-600'
+      title: '2º lugar',
+      subtitle: 'Jogos Escolares Brasileiro',
+      description: 'Vice Campeã nos Jogos Escolares Brasileiro no ano de 20XX',
+      color: 'bg-blue-600'
+    },
+    {
+      icon: Award,
+      title: '3º lugar',
+      subtitle: 'Jogos Escolares do Amazonas',
+      description: 'Conquista do bronze nos Jogos Escolares do Amazonas em 20XX',
+      color: 'bg-blue-600'
+    },
+    {
+      icon: Star,
+      title: '5º lugar',
+      subtitle: 'Rankings Nacionais',
+      description: '5º lugar no ranking nacional nos Jogos Escolares Brasileiro em 20XX',
+      color: 'bg-blue-600'
+    }
+  ];
+
+  const timeline = [
+    {
+      year: '2018 - 2021',
+      title: 'Formação & Desenvolvimento Técnico',
+      description: 'Período de desenvolvimento nas categorias de base e início da participação em competições regionais.',
+      color: 'bg-blue-600'
+    },
+    {
+      year: '2022',
+      title: 'CBS - Campeonato Brasileiro de Seleções',
+      description: 'Participação em Saquarema no CT da Confederação Brasileira de Volei, marco importante na carreira atlética.',
+      color: 'bg-yellow-400'
+    },
+    {
+      year: '2023',
+      title: 'Múltiplas Competições Nacionais',
+      description: 'CBDE (São Paulo), CBS (Saquarema-CBV) e JEBS - Jogos Escolares Brasileiros, consolidando presença no cenário nacional.',
+      color: 'bg-blue-600'
+    },
+    {
+      year: '2024',
+      title: 'CBI - Campeonato Brasileiro de Interclubes',
+      description: 'Duas participações: Maringá-PR e Rio de Janeiro-RJ, competindo nos principais centros do vôlei nacional.',
+      color: 'bg-yellow-400'
+    },
+    {
+      year: '2025',
+      title: 'JUBS - Jogos Universitários Brasileiros',
+      description: 'Participação em Natal - Rio Grande do Norte, representando a universidade em competição nacional.',
+      color: 'bg-blue-600'
     }
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4 font-paytone">Trajetórias e Vivências</h2>
-          <h3 className="text-3xl font-bold text-blue-600">Minhas Conquistas como Atleta</h3>
+          <h2 className="text-4xl font-bold text-blue-800 mb-8 font-paytone">
+            Participações & Conquistas
+          </h2>
+          <div className="w-12 h-1 bg-yellow-400 mx-auto"></div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-16 font-lexend">
           {achievements.map((achievement, index) => {
             const Icon = achievement.icon;
             return (
-              <div key={index} className="text-center">
-                <div className={`w-20 h-20 rounded-full bg-gradient-to-r ${achievement.color} flex items-center justify-center mx-auto mb-4`}>
-                  <Icon className="w-8 h-8 text-white" />
+              <div key={index} className="text-center bg-white rounded-xl p-6 shadow-lg font-lexend">
+                <div className={`w-16 h-16 rounded-full ${achievement.color} flex items-center justify-center mx-auto mb-4`}>
+                  <Icon className="w-8 h-8 text-yellow-400" />
                 </div>
-                <div className="text-3xl font-bold text-gray-800">{achievement.number}</div>
-                <div className="text-lg font-semibold text-gray-600">{achievement.label}</div>
-                <div className="text-sm text-gray-500 mt-1">{achievement.subtitle}</div>
+                <h3 className="text-xl font-bold text-blue-800 mb-2">{achievement.title}</h3>
+                <h4 className="text-lg font-semibold text-blue-600 mb-3">{achievement.subtitle}</h4>
+                <p className="text-sm text-gray-600 leading-relaxed font-lexend">{achievement.description}</p>
               </div>
             );
           })}
         </div>
 
-        <div className="mt-16 bg-blue-50 rounded-2xl p-8">
-          <h4 className="text-2xl font-bold text-blue-800 mb-6 text-center">Formação & Experiência</h4>
-          
-          <div className="space-y-6">
-            <div className="flex items-start space-x-4">
-              <div className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-semibold">
-                2024 - Atualmente
+        <div className="max-w-4xl mx-auto">
+          <div className="relative">
+            <div className="absolute left-4 top-0 bottom-0 w-px bg-gray-300"></div>
+            
+            {timeline.map((item, index) => (
+              <div key={index} className="relative flex items-start mb-8 last:mb-0">
+                <div className={`w-8 h-8 rounded-full ${item.color} flex items-center justify-center relative z-10`}>
+                  <div className="w-3 h-3 bg-white rounded-full"></div>
+                </div>
+                
+                <div className="ml-8">
+                  <div className={`inline-block ${item.color} ${item.color === 'bg-blue-600' ? 'text-white' : 'text-black'} px-4 py-1 rounded-full text-sm font-semibold mb-2`}>
+                    {item.year}
+                  </div>
+                  <h3 className="text-xl font-bold text-blue-800 mb-2">{item.title}</h3>
+                  <p className="text-gray-600 leading-relaxed font-lexend">{item.description}</p>
+                </div>
               </div>
-              <div>
-                <h5 className="font-semibold text-gray-800">Carreira Profissional & Coaching</h5>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-semibold">
-                2019 - 2023
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-800">Circuito Profissional de Vôlei de Quadra</h5>
-                <p className="text-gray-600 text-sm">
-                  Experiência prática com diferentes metodologias de treinamento, 
-                  tática e preparação física específica para rendimento.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
