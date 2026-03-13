@@ -28,7 +28,7 @@ export default function Header() {
             <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">🏐</span>
             </div>
-            <span className="text-xl font-bold text-blue-600">Vôlei & Saúde</span>
+            <span className="text-xl font-bold text-blue-600 font-paytone">Graziela Colares</span>
           </motion.div>
 
           {/* Desktop Navigation */}

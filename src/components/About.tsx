@@ -10,7 +10,7 @@ export default function About() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-          <div className="bg-gradient-to-br from-orange-200 to-orange-300 rounded-3xl aspect-video flex items-center justify-center">
+          <div className="bg-linear-to-br from-orange-200 to-orange-300 rounded-3xl aspect-video flex items-center justify-center">
             <div className="text-center p-8">
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Treinamento de Vôlei</h3>
               <div className="space-y-2 text-gray-700">
@@ -20,7 +20,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-pink-200 to-pink-300 rounded-3xl aspect-video flex items-center justify-center">
+          <div className="bg-linear-to-br from-pink-200 to-pink-300 rounded-3xl aspect-video flex items-center justify-center">
             <div className="text-center p-8">
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Personal Trainer</h3>
               <div className="space-y-2 text-gray-700">

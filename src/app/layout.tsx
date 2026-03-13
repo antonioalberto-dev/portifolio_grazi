@@ -24,7 +24,7 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: "Graziela - Educadora Física & Personal Trainer | Vôlei & Saúde",
+  title: "Graziela Colares - Educadora Física & Personal Trainer | Vôlei & Saúde",
   description: "Transformando vidas através do movimento e do vôlei. Aulas personalizadas, treinamento de vôlei e personal training com uma profissional experiente.",
 };
 

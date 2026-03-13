@@ -15,7 +15,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+    <section className="py-20 bg-linear-to-br from-blue-600 to-blue-800 text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6 font-paytone">Pronto para elevar seu jogo?</h2>
