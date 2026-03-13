@@ -38,8 +38,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Todos os direitos reservados. Criado com 💙</p>
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 font-lexend text-[10px]">
+          <p>&copy; 2026 Todos os direitos reservados. Desenvolvido por Antônio Barbosa</p>
         </div>
       </div>
     </footer>

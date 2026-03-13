@@ -14,9 +14,9 @@ export default function Home() {
       <div id="inicio">
         <Hero />
       </div>
-      <div id="sobre">
+      {/* <div id="sobre">
         <About />
-      </div>
+      </div> */}
       <div id="conquistas">
         <Achievements />
       </div>

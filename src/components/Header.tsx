@@ -38,7 +38,7 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 whileHover={{ scale: 1.05 }}
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="text-gray-700 hover:text-blue-600 transition-colors font-medium font-lexend"
               >
                 {item.name}
               </motion.a>
@@ -48,7 +48,7 @@ export default function Header() {
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors"
             >
-              Agendar Aula
+              Fale comigo
             </motion.button>
           </div>
 
