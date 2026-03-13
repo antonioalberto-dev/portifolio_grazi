@@ -83,29 +83,29 @@ export default function Achievements() {
                 <div className={`w-16 h-16 rounded-full ${achievement.color} flex items-center justify-center mx-auto mb-4`}>
                   <Icon className="w-8 h-8 text-yellow-400" />
                 </div>
-                <h3 className="text-xl font-bold text-blue-800 mb-2">{achievement.title}</h3>
-                <h4 className="text-lg font-semibold text-blue-600 mb-3">{achievement.subtitle}</h4>
+                <h3 className="text-xl font-bold text-blue-800 mb-2 font-lexend">{achievement.title}</h3>
+                <h4 className="text-lg font-semibold text-black mb-3 font-lexend">{achievement.subtitle}</h4>
                 <p className="text-sm text-gray-600 leading-relaxed font-lexend">{achievement.description}</p>
               </div>
             );
           })}
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto px-4">
           <div className="relative">
             <div className="absolute left-4 top-0 bottom-0 w-px bg-gray-300"></div>
-            
+
             {timeline.map((item, index) => (
               <div key={index} className="relative flex items-start mb-8 last:mb-0">
-                <div className={`w-8 h-8 rounded-full ${item.color} flex items-center justify-center relative z-10`}>
-                  <div className="w-3 h-3 bg-white rounded-full"></div>
+                <div className="absolute left-1 w-5 h-5 rounded-full flex items-center justify-center bg-white">
+                  <div className={`w-5 h-5 ${item.color} rounded-full`}></div>
                 </div>
-                
-                <div className="ml-8">
-                  <div className={`inline-block ${item.color} ${item.color === 'bg-blue-600' ? 'text-white' : 'text-black'} px-4 py-1 rounded-full text-sm font-semibold mb-2`}>
+
+                <div className="ml-12">
+                  <div className={`inline-block text-gray-700 py-1 text-sm mb-2 font-lexend font-bold`}>
                     {item.year}
                   </div>
-                  <h3 className="text-xl font-bold text-blue-800 mb-2">{item.title}</h3>
+                  <h3 className="text-xl font-bold text-blue-800 mb-2 font-lexend">{item.title}</h3>
                   <p className="text-gray-600 leading-relaxed font-lexend">{item.description}</p>
                 </div>
               </div>
