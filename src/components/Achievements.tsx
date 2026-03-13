@@ -36,7 +36,7 @@ export default function Achievements() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Trajetórias e Vivências</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4 font-paytone">Trajetórias e Vivências</h2>
           <h3 className="text-3xl font-bold text-blue-600">Minhas Conquistas como Atleta</h3>
         </div>
 

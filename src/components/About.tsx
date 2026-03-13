@@ -3,7 +3,7 @@ export default function About() {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Minha Expertise</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4 font-paytone">Minha Expertise</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Metodologias validadas que são o melhor equilíbrio de eficácia em treinos e movimentos corporais.
           </p>
