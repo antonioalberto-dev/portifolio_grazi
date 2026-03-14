@@ -11,17 +11,17 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Header />
-      <div id="inicio">
+      {/* <div id="inicio">
         <Hero />
-      </div>
+      </div> */}
       <div id="sobre">
         <About />
       </div>
-      <div id="conquistas">
-        <Achievements />
-      </div>
       <div id="projetos">
         <Projects />
+      </div>
+      <div id="conquistas">
+        <Achievements />
       </div>
       <div id="depoimentos">
         <Testimonials />

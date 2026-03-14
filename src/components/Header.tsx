@@ -16,7 +16,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-sm">
+    <header className="fixed top-0 w-full z-50 bg-white/85 backdrop-blur-md shadow-sm">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -25,7 +25,7 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center space-x-2"
           >
-            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-yellow-400/50 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">🏐</span>
             </div>
             <span className="text-xl font-bold text-blue-600 font-paytone">Graziela Colares</span>
@@ -66,7 +66,7 @@ export default function Header() {
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="md:hidden mt-4 pb-4 border-t border-gray-200"
+            className="md:hidden mt-4 pb-4 border-t border-gray-200 font-lexend"
           >
             <div className="flex flex-col space-y-4 pt-4">
               {navItems.map((item) => (

@@ -10,7 +10,7 @@ export default function About() {
   };
 
   return (
-    <section className="py-20 bg-gray-50" id="about">
+    <section className="py-30 bg-blue-50" id="about">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Imagem/Card à esquerda */}

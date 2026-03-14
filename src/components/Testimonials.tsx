@@ -29,13 +29,13 @@ export default function Testimonials() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
+          <h2 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2 font-lexend">
             O que dizem sobre mim
           </h2>
-          <h3 className="text-4xl font-bold text-gray-800">Depoimentos Inspiradores</h3>
+          <h3 className="text-4xl font-bold text-gray-800 font-paytone">Depoimentos Inspiradores</h3>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto font-lexend">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-gray-50 rounded-2xl p-8">
               <div className="flex items-center mb-6">
@@ -47,13 +47,6 @@ export default function Testimonials() {
                   <p className="text-gray-600 text-sm">{testimonial.role}</p>
                 </div>
               </div>
-              
-              <div className="flex mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              
               <p className="text-gray-700 italic">"{testimonial.text}"</p>
             </div>
           ))}
