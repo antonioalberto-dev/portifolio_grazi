@@ -4,7 +4,7 @@ import { MessageCircle, Mail } from 'lucide-react';
 
 export default function Contact() {
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/5511999999999', '_blank');
+    window.open('https://wa.me/5592993324046', '_blank');
   };
 
   const handleEmailClick = () => {
