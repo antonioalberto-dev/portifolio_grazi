@@ -34,9 +34,7 @@ export default function Projects() {
           </h2>
           <h3 className="text-4xl font-bold text-gray-800 font-paytone">Projetos & Impacto</h3>
           <p className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto font-lexend">
-            Mais de uma década dedicada à educação física,
-            transformando comunidades através de clínicas de vôlei e
-            programas de treinamento.
+            Através do vôlei e da educação física, busco impactar positivamente a vida das pessoas, incentivando disciplina, trabalho em equipe e evolução pessoal dentro e fora das quadras.
           </p>
         </div>
 
