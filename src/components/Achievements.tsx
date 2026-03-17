@@ -66,7 +66,7 @@ export default function Achievements() {
   ];
 
   return (
-    <section className="py-15 bg-gray-50">
+    <section className="py-15 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-blue-800 mb-8 font-paytone">

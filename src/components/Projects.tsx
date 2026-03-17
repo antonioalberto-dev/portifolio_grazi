@@ -21,7 +21,7 @@ export default function Projects() {
       tag: "Projeto comunitário",
       tagColor: "bg-yellow-500",
       image: "bg-gradient-to-br from-green-400 to-teal-500",
-      description: "campeonato comunitário focado em atletas amadores e profissionais nas zonas da cidade"
+      description: "Campeonato comunitário focado em atletas amadores e profissionais nas zonas da cidade"
     }
   ];
 
