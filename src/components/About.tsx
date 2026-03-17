@@ -41,10 +41,7 @@ export default function About() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed font-lexend">
-              Sou educadora física e treinadora de vôlei com mais de uma década de experiência. 
-              Meu propósito é unir a alta performance técnica com a saúde integral, ajudando 
-              atletas e alunos a superarem seus limites e conquistarem resultados extraordinários 
-              dentro e fora das quadras.
+              Sou graduanda em Educação Física e atleta de vôlei há mais de 6 anos. Tenho como propósito transformar o esporte em uma ferramenta de evolução pessoal, ajudando alunos e atletas a desenvolverem não só suas habilidades em quadra, mas também confiança, disciplina e relações saudáveis fora dela.
             </p>
 
             <button

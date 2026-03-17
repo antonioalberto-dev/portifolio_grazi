@@ -52,12 +52,6 @@ export default function Projects() {
                     <h4 className="text-xl font-bold mb-3">{project.title}</h4>
                     <p className="text-sm opacity-90 leading-relaxed">{project.description}</p>
                   </div>
-                  <div className="flex items-center justify-between">
-                    <button className="flex items-center text-yellow-400 font-bold text-sm hover:text-yellow-300 transition-colors">
-                      Ver Detalhes
-                      <ArrowRight className="ml-2 w-4 h-4" />
-                    </button>
-                  </div>
                 </div>
               </div>
             );
