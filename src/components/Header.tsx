@@ -7,6 +7,10 @@ import { useState } from 'react';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleWhatsAppClick = () => {
+    window.open('https://wa.me/5592993324046', '_blank');
+  };
+
   const navItems = [
     { name: 'Início', href: '#inicio' },
     { name: 'Sobre', href: '#sobre' },
@@ -46,6 +50,7 @@ export default function Header() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={handleWhatsAppClick}
               className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors"
             >
               Fale comigo
@@ -79,7 +84,10 @@ export default function Header() {
                   {item.name}
                 </a>
               ))}
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors w-full">
+              <button 
+                onClick={handleWhatsAppClick}
+                className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors w-full"
+              >
                 Agendar Aula
               </button>
             </div>
