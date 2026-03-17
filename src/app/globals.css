@@ -11,6 +11,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-paytone: var(--font-paytone-one);
+  --font-lexend: var(--font-lexend);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,7 +33,8 @@ body {
   font-style: normal;
 }
 
-h1, h2 {
-  font-family: var(--font-paytone-one), "Paytone One", sans-serif;
-  font-weight: 400;
+.lexend {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
