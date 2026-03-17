@@ -1,5 +1,4 @@
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Achievements from '@/components/Achievements';
 import Projects from '@/components/Projects';
@@ -11,9 +10,6 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Header />
-      {/* <div id="inicio">
-        <Hero />
-      </div> */}
       <div id="sobre">
         <About />
       </div>
