@@ -15,14 +15,14 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Imagem/Card à esquerda */}
           <div className="relative">
-            <div className="bg-white rounded-3xl shadow-xl p-8 transform rotate-2">
+            <div className="bg-white rounded-3xl shadow-xl p-3 transform rotate-2">
               <div className="bg-linear-to-br from-blue-100 to-blue-200 rounded-2xl aspect-video flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/assets/images/IMG_3949.PNG"
+                  src="/assets/images/tec-3.jpeg"
                   alt="Grazi - Educadora Física e Coach de Vôlei"
                   width={400}
                   height={300}
-                  className="w-full h-full object-cover object-top rounded-2xl"
+                  className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
             </div>
@@ -35,15 +35,13 @@ export default function About() {
                 QUEM SOU
               </p>
               <h2 className="text-4xl font-bold text-gray-800 mb-6 font-paytone">
-                Oi, eu sou a Grazi!
+                Oi, eu sou a Graziella Colares 
               </h2>
               <div className="w-16 h-1 bg-yellow-400 mb-6"></div>
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed font-lexend">
-              Sou graduanda em Educação Física e atleta de vôlei há mais de 6 anos. Tenho como propósito transformar o esporte em uma ferramenta de evolução pessoal, ajudando alunos e atletas a desenvolverem não só suas habilidades em quadra, mas também confiança, disciplina e relações saudáveis fora dela.
-            </p>
-
+              Vivo o vôlei há 9 anos e é através dele que eu me construo todos os dias. Como estudante de Educação Física, quero levar isso pra outras pessoas: um esporte que vai além da quadra e transforma de verdade.</p>
             <button
               onClick={handleLearnMore}
               className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors group font-lexend"

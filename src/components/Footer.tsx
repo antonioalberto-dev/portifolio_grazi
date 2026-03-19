@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-bold text-blue-400 mb-4 font-paytone">Graziela Colares</h3>
+            <h3 className="text-2xl font-bold text-blue-400 mb-4 font-paytone">Graziella Colares</h3>
             <p className="text-gray-400 mb-4 font-lexend">
               Transformando vidas através do movimento, 
               esporte e hábitos saudáveis.

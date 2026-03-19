@@ -32,7 +32,7 @@ export default function Header() {
             <div className="w-10 h-10 bg-yellow-400/50 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">🏐</span>
             </div>
-            <span className="text-xl font-bold text-blue-600 font-paytone">Graziela Colares</span>
+            <span className="text-xl font-bold text-blue-600 font-paytone">Graziella Colares</span>
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -51,7 +51,7 @@ export default function Header() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleWhatsAppClick}
-              className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors"
+              className="bg-blue-600 text-white px-6 py-2 rounded-full font-bold hover:bg-blue-700 transition-colors font-lexend"
             >
               Fale comigo
             </motion.button>

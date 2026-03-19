@@ -6,21 +6,21 @@ export default function Projects() {
       title: "Projeto Prefeitura de Manaus",
       tag: "Projeto",
       tagColor: "bg-yellow-500",
-      image: "/assets/images/tec-3.jpeg",
-      description: "Treino para escolinha de vôlei em um centro esportivo de esporte e lazer. Modalidades masculino e feminino com faixa etária de 13 a 17 anos"
+      image: "/assets/images/p1.jpeg",
+      description: "Treino para escolinha de vôlei em um centro esportivo de esporte e lazer. Modalidades masculino e feminino com faixa etária de 17 a 20 anos"
     },
     {
       title: "Manaus Vôlei",
       tag: "Coordenação Técnica", 
       tagColor: "bg-yellow-500",
       image: "/assets/images/tec-1.jpeg",
-      description: "Coordenação técnica e preparação física das equipes sub-15 e sub-17."
+      description: "Coordenação técnica e preparação física das equipes sub-18 e sub-21."
     },
     {
       title: "Desafio das Arenas",
       tag: "Projeto comunitário",
       tagColor: "bg-yellow-500",
-      image: "/assets/images/tec-2.jpeg",
+      image: "/assets/images/p3.jpeg",
       description: "Campeonato comunitário focado em atletas amadores e profissionais nas zonas da cidade"
     }
   ];

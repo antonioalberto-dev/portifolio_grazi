@@ -7,7 +7,7 @@ export default function Testimonials() {
       role: "Atleta Amadora",
       image: "LS",
       rating: 5,
-      text: "A Graziela transformou completamente minha relação com o esporte. Suas metodologias são incríveis!"
+      text: "A Graziella transformou completamente minha relação com o esporte. Suas metodologias são incríveis!"
     },
     {
       name: "Mariana Torres", 

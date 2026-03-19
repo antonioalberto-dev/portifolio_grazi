@@ -6,28 +6,28 @@ export default function Achievements() {
       icon: Star,
       title: 'Destaque',
       subtitle: 'Melhor Levantadora',
-      description: 'Prêmio de melhor levantadora do ano 2023, na categoria sub18',
+      description: 'Prêmio de melhor levantadora do ano 2023, na categoria sub-18',
       color: 'bg-blue-600'
     },
     {
       icon: Award,
       title: '2º lugar',
       subtitle: 'Jogos Escolares Brasileiro',
-      description: 'Vice Campeã nos Jogos Escolares Brasileiro no ano de 20XX',
+      description: 'Vice Campeã nos Jogos Escolares Brasileiro no ano de 2023',
       color: 'bg-blue-600'
     },
     {
       icon: Award,
       title: '3º lugar',
       subtitle: 'Jogos Escolares do Amazonas',
-      description: 'Conquista do bronze nos Jogos Escolares do Amazonas em 20XX',
+      description: 'Conquista do bronze nos Jogos Escolares do Amazonas em 2023',
       color: 'bg-blue-600'
     },
     {
       icon: Star,
       title: '5º lugar',
       subtitle: 'Rankings Nacionais',
-      description: '5º lugar no ranking nacional nos Jogos Escolares Brasileiro em 20XX',
+      description: '5º lugar no ranking nacional nos Jogos Escolares Brasileiro em 2025',
       color: 'bg-blue-600'
     }
   ];

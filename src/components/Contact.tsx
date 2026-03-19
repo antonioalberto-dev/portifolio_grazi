@@ -8,7 +8,7 @@ export default function Contact() {
   };
 
   const handleEmailClick = () => {
-    window.open('mailto:contato@graziela.com', '_blank');
+    window.open('mailto:contato@graziella.com', '_blank');
   };
 
   return (
